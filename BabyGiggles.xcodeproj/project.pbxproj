@@ -1,0 +1,440 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5D9FFBF213DDAC6F00AFEC82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF113DDAC6F00AFEC82 /* UIKit.framework */; };
+		5D9FFBF413DDAC6F00AFEC82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF313DDAC6F00AFEC82 /* Foundation.framework */; };
+		5D9FFBF613DDAC6F00AFEC82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF513DDAC6F00AFEC82 /* CoreGraphics.framework */; };
+		5D9FFBFC13DDAC6F00AFEC82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FFBFA13DDAC6F00AFEC82 /* InfoPlist.strings */; };
+		5D9FFBFF13DDAC6F00AFEC82 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FFBFE13DDAC6F00AFEC82 /* main.m */; };
+		5D9FFC0213DDAC6F00AFEC82 /* BabyGigglesAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FFC0113DDAC6F00AFEC82 /* BabyGigglesAppDelegate.m */; };
+		5D9FFC0513DDAC6F00AFEC82 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FFC0313DDAC6F00AFEC82 /* MainWindow.xib */; };
+		5D9FFC0C13DDAC6F00AFEC82 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF113DDAC6F00AFEC82 /* UIKit.framework */; };
+		5D9FFC0D13DDAC6F00AFEC82 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF313DDAC6F00AFEC82 /* Foundation.framework */; };
+		5D9FFC0E13DDAC6F00AFEC82 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D9FFBF513DDAC6F00AFEC82 /* CoreGraphics.framework */; };
+		5D9FFC1613DDAC6F00AFEC82 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FFC1413DDAC6F00AFEC82 /* InfoPlist.strings */; };
+		5D9FFC1913DDAC6F00AFEC82 /* BabyGigglesTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5D9FFC1813DDAC6F00AFEC82 /* BabyGigglesTests.h */; };
+		5D9FFC1B13DDAC7000AFEC82 /* BabyGigglesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D9FFC1A13DDAC7000AFEC82 /* BabyGigglesTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5D9FFC0F13DDAC6F00AFEC82 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5D9FFBE413DDAC6F00AFEC82 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5D9FFBEC13DDAC6F00AFEC82;
+			remoteInfo = BabyGiggles;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5D9FFBED13DDAC6F00AFEC82 /* BabyGiggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyGiggles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9FFBF113DDAC6F00AFEC82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5D9FFBF313DDAC6F00AFEC82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5D9FFBF513DDAC6F00AFEC82 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5D9FFBF913DDAC6F00AFEC82 /* BabyGiggles-Info.plist */ = {isa = PBXFileReference; path = "BabyGiggles-Info.plist"; sourceTree = "<group>"; };
+		5D9FFBFB13DDAC6F00AFEC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D9FFBFD13DDAC6F00AFEC82 /* BabyGiggles-Prefix.pch */ = {isa = PBXFileReference; path = "BabyGiggles-Prefix.pch"; sourceTree = "<group>"; };
+		5D9FFBFE13DDAC6F00AFEC82 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5D9FFC0013DDAC6F00AFEC82 /* BabyGigglesAppDelegate.h */ = {isa = PBXFileReference; path = BabyGigglesAppDelegate.h; sourceTree = "<group>"; };
+		5D9FFC0113DDAC6F00AFEC82 /* BabyGigglesAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyGigglesAppDelegate.m; sourceTree = "<group>"; };
+		5D9FFC0413DDAC6F00AFEC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5D9FFC0B13DDAC6F00AFEC82 /* BabyGigglesTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BabyGigglesTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5D9FFC1313DDAC6F00AFEC82 /* BabyGigglesTests-Info.plist */ = {isa = PBXFileReference; path = "BabyGigglesTests-Info.plist"; sourceTree = "<group>"; };
+		5D9FFC1513DDAC6F00AFEC82 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5D9FFC1713DDAC6F00AFEC82 /* BabyGigglesTests-Prefix.pch */ = {isa = PBXFileReference; path = "BabyGigglesTests-Prefix.pch"; sourceTree = "<group>"; };
+		5D9FFC1813DDAC6F00AFEC82 /* BabyGigglesTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BabyGigglesTests.h; sourceTree = "<group>"; };
+		5D9FFC1A13DDAC7000AFEC82 /* BabyGigglesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BabyGigglesTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5D9FFBEA13DDAC6F00AFEC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFBF213DDAC6F00AFEC82 /* UIKit.framework in Frameworks */,
+				5D9FFBF413DDAC6F00AFEC82 /* Foundation.framework in Frameworks */,
+				5D9FFBF613DDAC6F00AFEC82 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9FFC0713DDAC6F00AFEC82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFC0C13DDAC6F00AFEC82 /* UIKit.framework in Frameworks */,
+				5D9FFC0D13DDAC6F00AFEC82 /* Foundation.framework in Frameworks */,
+				5D9FFC0E13DDAC6F00AFEC82 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5D9FFBE213DDAC6F00AFEC82 = {
+			isa = PBXGroup;
+			children = (
+				5D9FFBF713DDAC6F00AFEC82 /* BabyGiggles */,
+				5D9FFC1113DDAC6F00AFEC82 /* BabyGigglesTests */,
+				5D9FFBF013DDAC6F00AFEC82 /* Frameworks */,
+				5D9FFBEE13DDAC6F00AFEC82 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5D9FFBEE13DDAC6F00AFEC82 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFBED13DDAC6F00AFEC82 /* BabyGiggles.app */,
+				5D9FFC0B13DDAC6F00AFEC82 /* BabyGigglesTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5D9FFBF013DDAC6F00AFEC82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFBF113DDAC6F00AFEC82 /* UIKit.framework */,
+				5D9FFBF313DDAC6F00AFEC82 /* Foundation.framework */,
+				5D9FFBF513DDAC6F00AFEC82 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5D9FFBF713DDAC6F00AFEC82 /* BabyGiggles */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFC0013DDAC6F00AFEC82 /* BabyGigglesAppDelegate.h */,
+				5D9FFC0113DDAC6F00AFEC82 /* BabyGigglesAppDelegate.m */,
+				5D9FFC0313DDAC6F00AFEC82 /* MainWindow.xib */,
+				5D9FFBF813DDAC6F00AFEC82 /* Supporting Files */,
+			);
+			path = BabyGiggles;
+			sourceTree = "<group>";
+		};
+		5D9FFBF813DDAC6F00AFEC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFBF913DDAC6F00AFEC82 /* BabyGiggles-Info.plist */,
+				5D9FFBFA13DDAC6F00AFEC82 /* InfoPlist.strings */,
+				5D9FFBFD13DDAC6F00AFEC82 /* BabyGiggles-Prefix.pch */,
+				5D9FFBFE13DDAC6F00AFEC82 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5D9FFC1113DDAC6F00AFEC82 /* BabyGigglesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFC1813DDAC6F00AFEC82 /* BabyGigglesTests.h */,
+				5D9FFC1A13DDAC7000AFEC82 /* BabyGigglesTests.m */,
+				5D9FFC1213DDAC6F00AFEC82 /* Supporting Files */,
+			);
+			path = BabyGigglesTests;
+			sourceTree = "<group>";
+		};
+		5D9FFC1213DDAC6F00AFEC82 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5D9FFC1313DDAC6F00AFEC82 /* BabyGigglesTests-Info.plist */,
+				5D9FFC1413DDAC6F00AFEC82 /* InfoPlist.strings */,
+				5D9FFC1713DDAC6F00AFEC82 /* BabyGigglesTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5D9FFBEC13DDAC6F00AFEC82 /* BabyGiggles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9FFC1E13DDAC7000AFEC82 /* Build configuration list for PBXNativeTarget "BabyGiggles" */;
+			buildPhases = (
+				5D9FFBE913DDAC6F00AFEC82 /* Sources */,
+				5D9FFBEA13DDAC6F00AFEC82 /* Frameworks */,
+				5D9FFBEB13DDAC6F00AFEC82 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BabyGiggles;
+			productName = BabyGiggles;
+			productReference = 5D9FFBED13DDAC6F00AFEC82 /* BabyGiggles.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5D9FFC0A13DDAC6F00AFEC82 /* BabyGigglesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D9FFC2113DDAC7000AFEC82 /* Build configuration list for PBXNativeTarget "BabyGigglesTests" */;
+			buildPhases = (
+				5D9FFC0613DDAC6F00AFEC82 /* Sources */,
+				5D9FFC0713DDAC6F00AFEC82 /* Frameworks */,
+				5D9FFC0813DDAC6F00AFEC82 /* Resources */,
+				5D9FFC0913DDAC6F00AFEC82 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5D9FFC1013DDAC6F00AFEC82 /* PBXTargetDependency */,
+			);
+			name = BabyGigglesTests;
+			productName = BabyGigglesTests;
+			productReference = 5D9FFC0B13DDAC6F00AFEC82 /* BabyGigglesTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5D9FFBE413DDAC6F00AFEC82 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5D9FFBE713DDAC6F00AFEC82 /* Build configuration list for PBXProject "BabyGiggles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5D9FFBE213DDAC6F00AFEC82;
+			productRefGroup = 5D9FFBEE13DDAC6F00AFEC82 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5D9FFBEC13DDAC6F00AFEC82 /* BabyGiggles */,
+				5D9FFC0A13DDAC6F00AFEC82 /* BabyGigglesTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5D9FFBEB13DDAC6F00AFEC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFBFC13DDAC6F00AFEC82 /* InfoPlist.strings in Resources */,
+				5D9FFC0513DDAC6F00AFEC82 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9FFC0813DDAC6F00AFEC82 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFC1613DDAC6F00AFEC82 /* InfoPlist.strings in Resources */,
+				5D9FFC1913DDAC6F00AFEC82 /* BabyGigglesTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5D9FFC0913DDAC6F00AFEC82 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D9FFBE913DDAC6F00AFEC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFBFF13DDAC6F00AFEC82 /* main.m in Sources */,
+				5D9FFC0213DDAC6F00AFEC82 /* BabyGigglesAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D9FFC0613DDAC6F00AFEC82 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5D9FFC1B13DDAC7000AFEC82 /* BabyGigglesTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5D9FFC1013DDAC6F00AFEC82 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5D9FFBEC13DDAC6F00AFEC82 /* BabyGiggles */;
+			targetProxy = 5D9FFC0F13DDAC6F00AFEC82 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5D9FFBFA13DDAC6F00AFEC82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9FFBFB13DDAC6F00AFEC82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5D9FFC0313DDAC6F00AFEC82 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9FFC0413DDAC6F00AFEC82 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5D9FFC1413DDAC6F00AFEC82 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5D9FFC1513DDAC6F00AFEC82 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5D9FFC1C13DDAC7000AFEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5D9FFC1D13DDAC7000AFEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		5D9FFC1F13DDAC7000AFEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyGiggles/BabyGiggles-Prefix.pch";
+				INFOPLIST_FILE = "BabyGiggles/BabyGiggles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5D9FFC2013DDAC7000AFEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyGiggles/BabyGiggles-Prefix.pch";
+				INFOPLIST_FILE = "BabyGiggles/BabyGiggles-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5D9FFC2213DDAC7000AFEC82 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BabyGiggles.app/BabyGiggles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyGigglesTests/BabyGigglesTests-Prefix.pch";
+				INFOPLIST_FILE = "BabyGigglesTests/BabyGigglesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5D9FFC2313DDAC7000AFEC82 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/BabyGiggles.app/BabyGiggles";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BabyGigglesTests/BabyGigglesTests-Prefix.pch";
+				INFOPLIST_FILE = "BabyGigglesTests/BabyGigglesTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5D9FFBE713DDAC6F00AFEC82 /* Build configuration list for PBXProject "BabyGiggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9FFC1C13DDAC7000AFEC82 /* Debug */,
+				5D9FFC1D13DDAC7000AFEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D9FFC1E13DDAC7000AFEC82 /* Build configuration list for PBXNativeTarget "BabyGiggles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9FFC1F13DDAC7000AFEC82 /* Debug */,
+				5D9FFC2013DDAC7000AFEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5D9FFC2113DDAC7000AFEC82 /* Build configuration list for PBXNativeTarget "BabyGigglesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5D9FFC2213DDAC7000AFEC82 /* Debug */,
+				5D9FFC2313DDAC7000AFEC82 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5D9FFBE413DDAC6F00AFEC82 /* Project object */;
+}
