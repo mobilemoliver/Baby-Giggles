@@ -6,6 +6,8 @@
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
 
+// THIS IS MY CHANGE
+
 #import "MGOKenBurnsController.h"
 #import <stdlib.h>
 
