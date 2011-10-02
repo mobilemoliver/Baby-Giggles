@@ -7,11 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BabyGigglesMainController.h"
+#import "LocalyticsSession.h"
+
+#define ENABLE_LOCALYTICS YES
 
 @interface BabyGigglesAppDelegate : NSObject <UIApplicationDelegate> {
-
+    BabyGigglesMainController *mainController;
 }
 
 @property (nonatomic, retain) IBOutlet UIWindow *window;
+
+/* The main UI controller of the app.
+ */
+@property (nonatomic, retain) BabyGigglesMainController *mainController;
 
 @end

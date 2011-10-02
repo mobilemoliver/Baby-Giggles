@@ -7,16 +7,28 @@
 //
 
 #import "BabyGigglesAppDelegate.h"
+#import "ThirdPartyKeys.h"
 
 @implementation BabyGigglesAppDelegate
 
 
 @synthesize window=_window;
+@synthesize mainController;
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    if (ENABLE_LOCALYTICS)
+        [[LocalyticsSession sharedLocalyticsSession] startSession:LOCALYTICS_KEY];
+    
+    // Add the main UI controller to the window.
+    BabyGigglesMainController *newMainController = [[BabyGigglesMainController alloc] initWithNibName:@"BabyGigglesMainController" bundle:nil];
+    self.mainController = newMainController;
+    [self.window addSubview: self.mainController.view];
+    [newMainController release];
+    
     // Override point for customization after application launch.
     [self.window makeKeyAndVisible];
+    
     return YES;
 }
 
@@ -28,21 +40,6 @@
      */
 }
 
-- (void)applicationDidEnterBackground:(UIApplication *)application
-{
-    /*
-     Use this method to release shared resources, save user data, invalidate timers, and store enough application state information to restore your application to its current state in case it is terminated later. 
-     If your application supports background execution, this method is called instead of applicationWillTerminate: when the user quits.
-     */
-}
-
-- (void)applicationWillEnterForeground:(UIApplication *)application
-{
-    /*
-     Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
-     */
-}
-
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
     /*
@@ -50,18 +47,40 @@
      */
 }
 
-- (void)applicationWillTerminate:(UIApplication *)application
-{
-    /*
-     Called when the application is about to terminate.
-     Save data if appropriate.
-     See also applicationDidEnterBackground:.
-     */
+- (void)applicationWillEnterForeground:(UIApplication *)application {
+    // Attempt to resume the existing session or create a new one.
+    
+    if (ENABLE_LOCALYTICS)
+    {
+        [[LocalyticsSession sharedLocalyticsSession] resume];
+        [[LocalyticsSession sharedLocalyticsSession] upload];
+    }
+}
+
+- (void)applicationDidEnterBackground:(UIApplication *)application {
+    // close the session before entering the background
+
+    if (ENABLE_LOCALYTICS)
+    {
+        [[LocalyticsSession sharedLocalyticsSession] close];
+        [[LocalyticsSession sharedLocalyticsSession] upload];
+    }
+}
+
+- (void)applicationWillTerminate:(UIApplication *)application {
+    // Close Localytics Session in the case where the OS terminates the app
+
+    if (ENABLE_LOCALYTICS)
+    {
+        [[LocalyticsSession sharedLocalyticsSession] close];
+        [[LocalyticsSession sharedLocalyticsSession] upload];
+    }
 }
 
 - (void)dealloc
 {
     [_window release];
+    self.mainController = nil;
     [super dealloc];
 }
 
