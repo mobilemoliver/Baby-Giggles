@@ -5,8 +5,7 @@
 //  Created by Mike Oliver on 7/25/11.
 //  Copyright 2011 __MyCompanyName__. All rights reserved.
 //
-
-// THIS IS MY CHANGE
+//  This is yet another change.
 
 #import "MGOKenBurnsController.h"
 #import <stdlib.h>
