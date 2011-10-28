@@ -55,6 +55,8 @@
         [[LocalyticsSession sharedLocalyticsSession] resume];
         [[LocalyticsSession sharedLocalyticsSession] upload];
     }
+    
+    [self.mainController.kenBurnsController animationFinished];
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

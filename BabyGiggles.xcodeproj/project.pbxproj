@@ -94,7 +94,6 @@
 		5D37BABD14009B10002E9D0D /* UploaderThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = UploaderThread.h; path = src/UploaderThread.h; sourceTree = "<group>"; };
 		5D37BABE14009B10002E9D0D /* UploaderThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = UploaderThread.m; path = src/UploaderThread.m; sourceTree = "<group>"; };
 		5D37BABF14009B10002E9D0D /* WebserviceConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebserviceConstants.h; path = src/WebserviceConstants.h; sourceTree = "<group>"; };
-		5D37BAC314009C4E002E9D0D /* ThirdPartyKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartyKeys.h; sourceTree = "<group>"; };
 		5D37BAC41400A0C5002E9D0D /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		5D37BAC61400A0E1002E9D0D /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 		5D37BADD1401E244002E9D0D /* ELCAlbumPickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ELCAlbumPickerController.h; path = "../../Downloads/elc-ELCImagePickerController-5e82f23/Classes/ELCAlbumPickerController.h"; sourceTree = "<group>"; };
@@ -142,6 +141,7 @@
 		5D67D82213E4D87400F796A9 /* BabyGigglesMainController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BabyGigglesMainController.h; sourceTree = "<group>"; };
 		5D67D82313E4D87400F796A9 /* BabyGigglesMainController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BabyGigglesMainController.m; sourceTree = "<group>"; };
 		5D67D82413E4D87400F796A9 /* BabyGigglesMainController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BabyGigglesMainController.xib; sourceTree = "<group>"; };
+		5D7972A5145A28190059C957 /* ThirdPartyKeys.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdPartyKeys.h; sourceTree = "<group>"; };
 		5D9FFBED13DDAC6F00AFEC82 /* My Baby Giggles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Baby Giggles.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5D9FFBF113DDAC6F00AFEC82 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5D9FFBF313DDAC6F00AFEC82 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -305,7 +305,7 @@
 				5D67D82213E4D87400F796A9 /* BabyGigglesMainController.h */,
 				5D67D82313E4D87400F796A9 /* BabyGigglesMainController.m */,
 				5D67D82413E4D87400F796A9 /* BabyGigglesMainController.xib */,
-				5D37BAC314009C4E002E9D0D /* ThirdPartyKeys.h */,
+				5D7972A5145A28190059C957 /* ThirdPartyKeys.h */,
 				5D37BAFB1405D698002E9D0D /* MGOSimpleRoundedButton.h */,
 				5D37BAFC1405D698002E9D0D /* MGOSimpleRoundedButton.m */,
 			);
